@@ -18,8 +18,8 @@ jobs:
       - name: Synopsys Action
         uses: synopsys-sig/synopsys-action@v1.2.0
         with:
-          polaris_serverUrl: ${{ secrets.POLARIS_SERVER_URL }}
-          polaris_accessToken: ${{ secrets.POLARIS_ACCESS_TOKEN }}
+          polaris_serverUrl: ${{ secrets.POLARIS_SERVERURL }}
+          polaris_accessToken: ${{ secrets.POLARIS_ACCESSTOKEN }}
           polaris_application_name: "NodeGoat"
           polaris_project_name: "NodeGoat"
           polaris_assessment_types: "SCA,SAST"
